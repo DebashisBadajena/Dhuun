@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#E8E7E7">
+
+
+    <ImageView
+        android:layout_width="308dp"
+        android:layout_height="340dp"
+        android:layout_marginBottom="80dp"
+        android:elevation="15dp"
+        android:src="@drawable/rectangle"
+        app:layout_constraintBottom_toTopOf="@+id/neumorphTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <soup.neumorphism.NeumorphTextView
+        android:id="@+id/neumorphTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/lemon"
+        android:text="DHUUN"
+        android:textAlignment="center"
+        android:textColor="#AEC3C3C3"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:neumorph_shadowElevation="5dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

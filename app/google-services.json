@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634714845674",
+    "project_id": "dhuun-967f1",
+    "storage_bucket": "dhuun-967f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634714845674:android:bd24bc54371d19e9c58293",
+        "android_client_info": {
+          "package_name": "com.example.dhuun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634714845674-uogeu8874hvkakvk254eh87r1h6pp5gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOiqfgLH0dO6T5SA9HyTZbFpnw6U3E0kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634714845674-uogeu8874hvkakvk254eh87r1h6pp5gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

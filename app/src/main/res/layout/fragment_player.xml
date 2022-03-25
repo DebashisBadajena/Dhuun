@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerFragment"
+    android:background="@drawable/player_background"
+    >
+
+
+    <ImageView
+        android:id="@+id/goBackToList"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_playlist_play_24"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:elevation="25dp"/>
+
+
+    <ImageView
+        android:id="@+id/listlogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:background="#36F3F3F3"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goBackToList" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listlogo"
+        app:layout_constraintVertical_bias="0.96">
+
+        <com.example.jean.jcplayer.view.JcPlayerView
+            android:id="@+id/jcplayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:visibility="visible"
+            app:next_icon_color="#FFFFFF"
+            app:pause_icon_color="#FFFFFF"
+            app:play_icon_color="#FFFFFF"
+            app:previous_icon_color="#FFFFFF"
+            app:progress_color="#FFFFFF"
+            app:random_icon_color="#FFFFFF"
+            app:repeat_icon_color="#FFFFFF"
+            app:seek_bar_color="#ED0D0D"
+            app:text_audio_current_duration_color="#FFFFFF"
+            app:text_audio_duration_color="#FFFFFF"
+            app:text_audio_title_color="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
